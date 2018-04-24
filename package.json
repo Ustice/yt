@@ -1,0 +1,27 @@
+{
+  "name": "yt",
+  "version": "0.0.0",
+  "description": "A simple command line utility to open a Chome app window with a YouTube url",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Ustice/yt.git"
+  },
+  "author": "Jason Kleinberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ustice/yt/issues"
+  },
+  "homepage": "https://github.com/Ustice/yt#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.15.1",
+    "node-cmd": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
